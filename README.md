@@ -143,9 +143,9 @@ Open your terminal or command prompt and run:
 
 ```bash
 pip install opencv-python numpy
- 
-------------------------------------------------------------------------------------
+```
 
+-----------------------------------------------------------------------------------------------
 # spot_removes.py
 
 An interactive OpenCV-based Python tool designed to cleanly erase fingers, thumbs, and unwanted shadows from scanned book pages and documents. 
