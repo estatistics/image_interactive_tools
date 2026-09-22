@@ -1,5 +1,4 @@
-# A) 📖 Interactive Book Page Crop & Unwarp Tool
-(Cut_Interactive)
+# 1) Cut_Interactive - 📖 Interactive Book Page Crop & Unwarp Tool
 
 An interactive Python utility designed for scanning and digitizing book pages. It allows you to select quadrilateral page bounds, perspective-correct (unwarp) tilted or skewed pages, and batch-process entire scans with persistent bounding boxes and extended canvas margins.
 
@@ -146,9 +145,7 @@ pip install opencv-python numpy
 ```
 
 -----------------------------------------------------------------------------------------------
-# spot_removes.py
-
-An interactive OpenCV-based Python tool designed to cleanly erase fingers, thumbs, and unwanted shadows from scanned book pages and documents. 
+# 2) spot_removes.py - An interactive OpenCV-based Python tool designed to cleanly erase fingers, thumbs, and unwanted shadows from scanned book pages and documents. 
 
 Unlike standard inpainting algorithms that cause ugly blurred blobs, `spot_removes.py` uses **Patch-Based Seamless Texture Cloning** (Poisson blending similar to GIMP's Clone/Heal tool) and **Pseudo-Canvas Border Padding** to ensure perfect paper grain restoration—even along the very top and side edges of your images.
 
